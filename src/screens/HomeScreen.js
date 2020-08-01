@@ -19,10 +19,12 @@ const HomeScreen = (props) => {
                 onPress={() => props.navigation.navigate("List")}
                 title="go to list demo"
             />
+            <Text>Reusbale components</Text>
             <Button
                 onPress={() => props.navigation.navigate("Image")}
                 title="go to Image screen demo"
             />
+            <Text>state management</Text>
             <Button
                 onPress={() => props.navigation.navigate("Counter")}
                 title="go to Counter screen demo"
@@ -31,13 +33,20 @@ const HomeScreen = (props) => {
                 onPress={() => props.navigation.navigate("Color")}
                 title="go to Color screen demo"
             />
+            <Text>used State</Text>
             <Button
                 onPress={() => props.navigation.navigate("Sqaure")}
                 title="go to Sqaure screen demo"
             />
+            <Text>Used reducer</Text>
             <Button
                 onPress={() => props.navigation.navigate("Sqaure2")}
                 title="go to Sqaure screen 2 demo"
+            />
+            <Text>text screen</Text>
+            <Button
+                onPress={() => props.navigation.navigate("TextInput")}
+                title="go to TextInput screen demo"
             />
         </View>
     );
